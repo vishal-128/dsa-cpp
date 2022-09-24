@@ -7,7 +7,7 @@ int main()
 {
     vector<int> v;
     vector<int> a(5,1);
-    vector<int> b(a);
+    vector<int> b(a); // coping a vector in b vector
 
     for(int i:b)
     {

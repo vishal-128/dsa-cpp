@@ -5,6 +5,8 @@ using namespace std;
 int main()
 {
     list<int> l;
+    list<int> n(l) //coping l list in n list
+
     l.push_back(1);
     l.push_front(2);
 
