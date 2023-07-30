@@ -40,3 +40,4 @@ int main()
     b.push_back(5);
     vector<int> ans=mergearray(a,b);
     print(ans);
+}
