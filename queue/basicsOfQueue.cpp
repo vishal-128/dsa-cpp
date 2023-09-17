@@ -10,6 +10,7 @@ int main(){
     q.push(20);
     q.push(25);
 
+           
     cout<< " first element of the queue is :"<< q.front()<< endl;;
 
     q.pop();

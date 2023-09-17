@@ -8,7 +8,7 @@ void BinarySearch(int a[],int n,int s)
     end=n-1;
     while(end>=start)
     {
-        mid=end-start/2;
+        mid= start + (end-start)/2;
         if (a[mid]==s)
         {
             cout<<"number found at position :"<<mid<<endl<<a[mid]<<endl;
@@ -27,6 +27,6 @@ void BinarySearch(int a[],int n,int s)
 }
 int main()
 {
-    int arr[5]={2,2,2,2,4};
-    BinarySearch(arr,5,2);
+    int arr[5]={1,2,3,4,5};
+    BinarySearch(arr,5,4);
 }
